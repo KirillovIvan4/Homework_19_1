@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="card mt-4 md-4">
+                <div class="card-body">
+                    <h5 class="card-title">Nintendo Switch</h5>
+                    <p class="card-text">Nintendo switch Oled новый. В коробке будет бумажка с инструкцией по основным
+                        моментам использования (Закачка игр, переключение на официальную систему, замена карты памяти,
+                        обновление в будущем). Полный заводской комплект ( док станция, провод HDMI, зарядка, джойстик,
+                        фиксаторы) + В подарок: карта памяти 256gb (Samsung) + переходник под нашу зарядку.
+                        content.</p>
+                    <button type="button" class="btn btn-success rounded-pill">Купить</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="card mt-4 md-4">
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Имя</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp">
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Email</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <p class="h2 text-center mt-2 md-2">FAQ</p>
+            <div class="card-body text-center">
+                <p class="d-inline-flex gap-1">
+                <div class="row">
+                    <div class="col-4">
+                        <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#answer_1" role="button"
+                           aria-expanded="false" aria-controls="answer_1">
+                            Как купить?
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#answer_2" role="button"
+                           aria-expanded="false" aria-controls="answer_2">
+                            Как доставить?
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#answer_3" role="button"
+                           aria-expanded="false" aria-controls="answer_3">
+                            Какая гарантия?
+                        </a>
+                    </div>
+                </div>
+
+
+                </p>
+                <div class="collapse" id="answer_1">
+                    <div class="card card-body">
+                        Добавь в корзтну и оплати
+                    </div>
+                </div>
+                <div class="collapse" id="answer_2">
+                    <div class="card card-body">
+                        Укажи адрес и жди
+                    </div>
+                </div>
+                <div class="collapse" id="answer_3">
+                    <div class="card card-body">
+                        Никаких
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Номер заказа</th>
+                <th scope="col">Название товара</th>
+                <th scope="col">Цена за штуку</th>
+                <th scope="col">Количество</th>
+                <th scope="col">Итоговая сумма</th>
+                <th scope="col">Статус заказа</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="table-primary">
+                <th scope="row">1</th>
+                <td>45</td>
+                <td>Nintendo Switch</td>
+                <td>45392</td>
+                <td>1</td>
+                <td>45392</td>
+                <td>Новый</td>
+            </tr>
+            <tr class="table-success">
+                <th scope="row">1</th>
+                <td>42</td>
+                <td>Nintendo Switch</td>
+                <td>45392</td>
+                <td>1</td>
+                <td>45392</td>
+                <td>Обработка</td>
+            </tr>
+            <tr class="table-warning">
+                <th scope="row">1</th>
+                <td>47</td>
+                <td>Nintendo Switch</td>
+                <td>45392</td>
+                <td>1</td>
+                <td>45392</td>
+                <td>Обработан</td>
+            </tr>
+            <tr class="table-danger">
+                <th scope="row">1</th>
+                <td>46</td>
+                <td>Nintendo Switch</td>
+                <td>45392</td>
+                <td>1</td>
+                <td>45392</td>
+                <td>Отмена</td>
+            </tr>
+            </tbody>
+        </table>
+        </tbody>
+        </table>
+
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
